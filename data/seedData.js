@@ -88,27 +88,26 @@ export const lessons = [
 
 // ================= ACTIVITY LOGS (TIME SERIES) =================
 export const activities = [
-  // John (last 7 days)
-  { studentId: 1, date: "2025-01-14", minutes: 40 },
-  { studentId: 1, date: "2025-01-15", minutes: 55 },
-  { studentId: 1, date: "2025-01-16", minutes: 35 },
-  { studentId: 1, date: "2025-01-17", minutes: 60 },
-  { studentId: 1, date: "2025-01-18", minutes: 45 },
-  { studentId: 1, date: "2025-01-19", minutes: 70 },
-  { studentId: 1, date: "2025-01-20", minutes: 65 },
+  // 🟢 John — Thriving (high frequency, recent)
+  { studentId: 1, date: "2025-12-24", minutes: 45 },
+  { studentId: 1, date: "2025-12-25", minutes: 60 },
+  { studentId: 1, date: "2025-12-26", minutes: 50 },
+  { studentId: 1, date: "2025-12-27", minutes: 70 },
+  { studentId: 1, date: "2025-12-28", minutes: 65 },
 
-  // Emily
-  { studentId: 2, date: "2025-01-18", minutes: 50 },
-  { studentId: 2, date: "2025-01-19", minutes: 40 },
-  { studentId: 2, date: "2025-01-20", minutes: 60 },
+  // 🟡 Emily — Needs Attention (recent but inconsistent)
+  { studentId: 2, date: "2025-12-20", minutes: 40 },
+  { studentId: 2, date: "2025-12-22", minutes: 35 },
+  { studentId: 2, date: "2025-12-26", minutes: 30 },
 
-  // Michael
-  { studentId: 3, date: "2025-01-19", minutes: 30 },
-  { studentId: 3, date: "2025-01-20", minutes: 45 },
+  // 🔴 Michael — At Risk (inactive for many days)
+  { studentId: 3, date: "2025-12-10", minutes: 30 },
+  { studentId: 3, date: "2025-12-12", minutes: 25 },
 
-  // Sophia
-  { studentId: 4, date: "2025-01-20", minutes: 35 },
+  // 🟡 Sophia — Needs Attention (only 1 session, recent)
+  { studentId: 4, date: "2025-12-28", minutes: 35 },
 
-  // Daniel
-  { studentId: 5, date: "2025-01-20", minutes: 25 }
+  // 🔴 Daniel — At Risk (very old activity)
+  { studentId: 5, date: "2025-12-05", minutes: 25 }
 ];
+
